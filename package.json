@@ -1,0 +1,11 @@
+{
+  "name": "exercices-app-ideas",
+  "version": "1.0.0",
+  "description": "Centralized exercices from my dev knowledge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafa Paludo",
+  "license": "ISC"
+}

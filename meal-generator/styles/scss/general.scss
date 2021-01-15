@@ -1,0 +1,26 @@
+
+// To compile and watch for changes::
+// ~$ sass --watch scss:css
+
+@use 'normalize';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  font-family: 'Roboto', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 62.5%;
+}
+
+// Text
+$text-color: #1E1E12;
+
+// Colors
+$color-pallete1: #FEDE72;
+$color-pallete2: #92FE71;
+$color-pallete3: #7192FE;
+$color-pallete4: #DD71FE;
+$color-pallete5: #D8FF73;

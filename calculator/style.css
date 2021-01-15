@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section{
+  border: 1px solid salmon;
+  width: 40vw;
+  padding: 12px;
+  margin: 12px;
+}
+
+input{
+  width: 100%;
+}
+
+#pad{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#pad input{
+  width: 20%;
+  text-align: center;
+  border: 1px solid rebeccapurple;
+  margin: 6px;
+}

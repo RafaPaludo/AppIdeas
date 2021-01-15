@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 80vw;
+  height: 400px;
+}
+
+#container img{
+  display: none;
+}
+
+#container img.active{
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.arrow-next,
+.arrow-prev{
+  cursor: pointer;
+}
